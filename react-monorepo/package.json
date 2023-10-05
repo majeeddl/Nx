@@ -3,7 +3,8 @@
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {
-    "serve": "npx nx serve react-monorepo"
+    "serve": "npx nx serve react-monorepo",
+    "graph" : "npx nx graph"
   },
   "private": true,
   "dependencies": {
