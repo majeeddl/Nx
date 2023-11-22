@@ -1,0 +1,237 @@
+{
+  "version": "6.0",
+  "nxVersion": "17.1.3",
+  "deps": {
+    "@nestjs/common": "^10.0.2",
+    "@nestjs/core": "^10.0.2",
+    "@nestjs/platform-express": "^10.0.2",
+    "axios": "^1.0.0",
+    "reflect-metadata": "^0.1.13",
+    "rxjs": "^7.8.0",
+    "tslib": "^2.3.0",
+    "@nestjs/schematics": "^10.0.1",
+    "@nestjs/testing": "^10.0.2",
+    "@nx/eslint-plugin": "16.10.0",
+    "@nx/jest": "16.10.0",
+    "@nx/js": "16.10.0",
+    "@nx/linter": "16.10.0",
+    "@nx/nest": "16.10.0",
+    "@nx/node": "16.10.0",
+    "@nx/webpack": "16.10.0",
+    "@nx/workspace": "16.10.0",
+    "@types/jest": "^29.4.0",
+    "@types/node": "~18.7.1",
+    "@typescript-eslint/eslint-plugin": "^5.60.1",
+    "@typescript-eslint/parser": "^5.60.1",
+    "eslint": "~8.46.0",
+    "eslint-config-prettier": "8.1.0",
+    "jest": "^29.4.1",
+    "jest-environment-node": "^29.4.1",
+    "nx": "16.10.0",
+    "nx-cloud": "latest",
+    "prettier": "^2.6.2",
+    "ts-jest": "^29.1.0",
+    "ts-node": "10.9.1",
+    "typescript": "~5.1.3"
+  },
+  "pathMappings": {},
+  "nxJsonPlugins": [],
+  "fileMap": {
+    "projectFileMap": {
+      "nest-workspace": [
+        {
+          "file": "apps/nest-workspace/.eslintrc.json",
+          "hash": "14921153827776288937"
+        },
+        {
+          "file": "apps/nest-workspace/jest.config.ts",
+          "hash": "4533588846325764984"
+        },
+        {
+          "file": "apps/nest-workspace/project.json",
+          "hash": "5212865853626414404"
+        },
+        {
+          "file": "apps/nest-workspace/src/app/app.controller.spec.ts",
+          "hash": "13081227780612210744",
+          "deps": [
+            "npm:@nestjs/testing"
+          ]
+        },
+        {
+          "file": "apps/nest-workspace/src/app/app.controller.ts",
+          "hash": "8194742152470293406",
+          "deps": [
+            "npm:@nestjs/common"
+          ]
+        },
+        {
+          "file": "apps/nest-workspace/src/app/app.module.ts",
+          "hash": "6267817688893699713",
+          "deps": [
+            "npm:@nestjs/common"
+          ]
+        },
+        {
+          "file": "apps/nest-workspace/src/app/app.service.spec.ts",
+          "hash": "18278639153968026239",
+          "deps": [
+            "npm:@nestjs/testing"
+          ]
+        },
+        {
+          "file": "apps/nest-workspace/src/app/app.service.ts",
+          "hash": "7653932249302388706",
+          "deps": [
+            "npm:@nestjs/common"
+          ]
+        },
+        {
+          "file": "apps/nest-workspace/src/assets/.gitkeep",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "apps/nest-workspace/src/main.ts",
+          "hash": "11002847513251719550",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:@nestjs/core"
+          ]
+        },
+        {
+          "file": "apps/nest-workspace/tsconfig.app.json",
+          "hash": "8327219737532488200"
+        },
+        {
+          "file": "apps/nest-workspace/tsconfig.json",
+          "hash": "7462419380158041776"
+        },
+        {
+          "file": "apps/nest-workspace/tsconfig.spec.json",
+          "hash": "11194536110028348959"
+        },
+        {
+          "file": "apps/nest-workspace/webpack.config.js",
+          "hash": "3897808457268280331",
+          "deps": [
+            "npm:@nx/webpack"
+          ]
+        }
+      ],
+      "nest-workspace-e2e": [
+        {
+          "file": "apps/nest-workspace-e2e/.eslintrc.json",
+          "hash": "14921153827776288937"
+        },
+        {
+          "file": "apps/nest-workspace-e2e/jest.config.ts",
+          "hash": "9650101635573337126"
+        },
+        {
+          "file": "apps/nest-workspace-e2e/project.json",
+          "hash": "10645140583373387904"
+        },
+        {
+          "file": "apps/nest-workspace-e2e/src/nest-workspace/nest-workspace.spec.ts",
+          "hash": "6988925255182087386",
+          "deps": [
+            "npm:axios"
+          ]
+        },
+        {
+          "file": "apps/nest-workspace-e2e/src/support/global-setup.ts",
+          "hash": "18221119270488052961"
+        },
+        {
+          "file": "apps/nest-workspace-e2e/src/support/global-teardown.ts",
+          "hash": "17927034305001160425"
+        },
+        {
+          "file": "apps/nest-workspace-e2e/src/support/test-setup.ts",
+          "hash": "4165311015569872896",
+          "deps": [
+            "npm:axios"
+          ]
+        },
+        {
+          "file": "apps/nest-workspace-e2e/tsconfig.json",
+          "hash": "1422418700492434985"
+        },
+        {
+          "file": "apps/nest-workspace-e2e/tsconfig.spec.json",
+          "hash": "5623794208198348967"
+        }
+      ]
+    },
+    "nonProjectFiles": [
+      {
+        "file": ".editorconfig",
+        "hash": "11532813898455409296"
+      },
+      {
+        "file": ".eslintignore",
+        "hash": "13404745306227114823"
+      },
+      {
+        "file": ".eslintrc.json",
+        "hash": "4566917484430375526"
+      },
+      {
+        "file": ".gitignore",
+        "hash": "12168950063400618382"
+      },
+      {
+        "file": ".prettierignore",
+        "hash": "2667183413816308602"
+      },
+      {
+        "file": ".prettierrc",
+        "hash": "6820402234827505055"
+      },
+      {
+        "file": ".vscode/extensions.json",
+        "hash": "13391140343975966684"
+      },
+      {
+        "file": ".yarn/releases/yarn-1.22.19.cjs",
+        "hash": "1324123219646460987"
+      },
+      {
+        "file": ".yarnrc",
+        "hash": "6406645819353544239"
+      },
+      {
+        "file": "README.md",
+        "hash": "18167853763545761493"
+      },
+      {
+        "file": "jest.config.ts",
+        "hash": "3407785570333453138"
+      },
+      {
+        "file": "jest.preset.js",
+        "hash": "7473220183190921152"
+      },
+      {
+        "file": "nx.json",
+        "hash": "7382822498826817668"
+      },
+      {
+        "file": "package.json",
+        "hash": "4513086155185102721"
+      },
+      {
+        "file": "pnpm-lock.yaml",
+        "hash": "5103162499463595613"
+      },
+      {
+        "file": "tsconfig.base.json",
+        "hash": "12471885200579325840"
+      },
+      {
+        "file": "yarn.lock",
+        "hash": "925706872376106597"
+      }
+    ]
+  }
+}

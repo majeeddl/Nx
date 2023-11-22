@@ -1,0 +1,17 @@
+[NX Daemon Server] - 2023-11-22T19:15:42.745Z - Started listening on: \\.\pipe\nx\C:\Users\Majeed\AppData\Local\Temp\7e57e0384a9bee4ffb62\d.sock
+[NX Daemon Server] - 2023-11-22T19:15:42.751Z - [WATCHER]: Subscribed to changes within: C:\Users\Majeed\Documents\GitHub\Nx\react-monorepo (native)
+[NX Daemon Server] - 2023-11-22T19:15:42.754Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2023-11-22T19:15:42.756Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2023-11-22T19:15:42.758Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2023-11-22T19:15:42.760Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2023-11-22T19:15:42.843Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-11-22T19:15:42.847Z - [REQUEST]: 
+[NX Daemon Server] - 2023-11-22T19:15:42.847Z - [REQUEST]: 
+[NX Daemon Server] - 2023-11-22T19:15:42.898Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2023-11-22T19:15:42.900Z - Time taken for 'total for creating and serializing project graph' 138.61879999982193ms
+[NX Daemon Server] - 2023-11-22T19:15:42.901Z - Done responding to the client project-graph
+[NX Daemon Server] - 2023-11-22T19:15:42.901Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 138. Response time: 3.
+[NX Daemon Server] - 2023-11-22T19:15:43.142Z - [REQUEST]: Responding to the client. handleHashTasks
+[NX Daemon Server] - 2023-11-22T19:15:43.143Z - Done responding to the client handleHashTasks
+[NX Daemon Server] - 2023-11-22T19:15:43.143Z - Handled HASH_TASKS. Handling time: 21. Response time: 1.
+[NX Daemon Server] - 2023-11-22T19:31:31.568Z - Closed a connection. Number of open connections: 0

@@ -1,0 +1,334 @@
+{
+  "version": "6.0",
+  "nxVersion": "17.1.3",
+  "deps": {
+    "@swc/helpers": "~0.5.3",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "tslib": "^2.6.2",
+    "@babel/core": "^7.23.3",
+    "@babel/preset-react": "^7.23.3",
+    "@nx/cypress": "17.1.3",
+    "@nx/eslint-plugin": "17.1.3",
+    "@nx/js": "17.1.3",
+    "@nx/linter": "17.1.3",
+    "@nx/react": "17.1.3",
+    "@nx/vite": "17.1.3",
+    "@nx/workspace": "17.1.3",
+    "@swc/cli": "~0.1.63",
+    "@swc/core": "~1.3.99",
+    "@testing-library/react": "14.1.2",
+    "@types/node": "20.9.4",
+    "@types/react": "18.2.38",
+    "@types/react-dom": "18.2.17",
+    "@typescript-eslint/eslint-plugin": "^6.12.0",
+    "@typescript-eslint/parser": "^6.12.0",
+    "@vitejs/plugin-react": "~4.2.0",
+    "@vitest/coverage-c8": "~0.33.0",
+    "@vitest/ui": "~0.34.6",
+    "cypress": "^13.6.0",
+    "eslint": "~8.54.0",
+    "eslint-config-prettier": "9.0.0",
+    "eslint-plugin-cypress": "^2.15.1",
+    "eslint-plugin-import": "2.29.0",
+    "eslint-plugin-jsx-a11y": "6.8.0",
+    "eslint-plugin-react": "7.33.2",
+    "eslint-plugin-react-hooks": "4.6.0",
+    "jsdom": "~22.1.0",
+    "nx": "17.1.3",
+    "nx-cloud": "^16.5.2",
+    "prettier": "^3.1.0",
+    "typescript": "~5.3.2",
+    "vite": "~5.0.2",
+    "vitest": "~0.34.6"
+  },
+  "pathMappings": {
+    "@react-monorepo/shared-ui": [
+      "shared-ui/src/index.ts"
+    ]
+  },
+  "nxJsonPlugins": [],
+  "fileMap": {
+    "nonProjectFiles": [
+      {
+        "file": ".editorconfig",
+        "hash": "11532813898455409296"
+      },
+      {
+        "file": ".eslintignore",
+        "hash": "13404745306227114823"
+      },
+      {
+        "file": ".eslintrc.json",
+        "hash": "9188201835120897554"
+      },
+      {
+        "file": ".gitignore",
+        "hash": "12168950063400618382"
+      },
+      {
+        "file": ".nx/cache/cloud/2311.09.8.hotfix5/index.js",
+        "hash": "10606361398510524944"
+      },
+      {
+        "file": ".nx/cache/cloud/2311.09.8.hotfix5/lib/daemon/process-run-end.js",
+        "hash": "4387998712489105129"
+      },
+      {
+        "file": ".nx/cache/cloud/2311.09.8.hotfix5/lib/heartbeat/heartbeat-process.js",
+        "hash": "5633484099946442012"
+      },
+      {
+        "file": ".nx/cache/cloud/verify.lock",
+        "hash": "12943495725767894494"
+      },
+      {
+        "file": ".nx/cache/d/daemon.log",
+        "hash": "2057990471619883721"
+      },
+      {
+        "file": ".nx/cache/d/server-process.json",
+        "hash": "16780112658474587553"
+      },
+      {
+        "file": ".nx/cache/file-map.json",
+        "hash": "1989370162835568715"
+      },
+      {
+        "file": ".nx/cache/lockfile.hash",
+        "hash": "2520017198937962855"
+      },
+      {
+        "file": ".nx/cache/parsed-lock-file.json",
+        "hash": "5109840612885248778"
+      },
+      {
+        "file": ".nx/cache/project-graph.json",
+        "hash": "15100611339301537193"
+      },
+      {
+        "file": ".prettierignore",
+        "hash": "2667183413816308602"
+      },
+      {
+        "file": ".prettierrc",
+        "hash": "6820402234827505055"
+      },
+      {
+        "file": ".vscode/extensions.json",
+        "hash": "4305574964819615641"
+      },
+      {
+        "file": ".yarn/releases/yarn-1.22.19.cjs",
+        "hash": "1324123219646460987"
+      },
+      {
+        "file": ".yarnrc",
+        "hash": "6406645819353544239"
+      },
+      {
+        "file": "README.md",
+        "hash": "1491115234441041870"
+      },
+      {
+        "file": "nx.json",
+        "hash": "11669096380292790178"
+      },
+      {
+        "file": "package.json",
+        "hash": "6031719676349259059"
+      },
+      {
+        "file": "pnpm-lock.yaml",
+        "hash": "5459033906547241003"
+      },
+      {
+        "file": "tsconfig.base.json",
+        "hash": "10837150083367889940"
+      },
+      {
+        "file": "yarn.lock",
+        "hash": "8869941217762445707"
+      }
+    ],
+    "projectFileMap": {
+      "react-monorepo": [
+        {
+          "file": "apps/react-monorepo/.eslintrc.json",
+          "hash": "14830867113928387670"
+        },
+        {
+          "file": "apps/react-monorepo/index.html",
+          "hash": "7192978627210240715"
+        },
+        {
+          "file": "apps/react-monorepo/project.json",
+          "hash": "3274217536977168628"
+        },
+        {
+          "file": "apps/react-monorepo/public/favicon.ico",
+          "hash": "9303420814833116677"
+        },
+        {
+          "file": "apps/react-monorepo/src/app/app.module.css",
+          "hash": "14507130133388590702"
+        },
+        {
+          "file": "apps/react-monorepo/src/app/app.spec.tsx",
+          "hash": "18072596015630975191",
+          "deps": [
+            "npm:@testing-library/react"
+          ]
+        },
+        {
+          "file": "apps/react-monorepo/src/app/app.tsx",
+          "hash": "10287832701910407237",
+          "deps": [
+            "shared-ui"
+          ]
+        },
+        {
+          "file": "apps/react-monorepo/src/app/nx-welcome.tsx",
+          "hash": "14045609974201697959"
+        },
+        {
+          "file": "apps/react-monorepo/src/assets/.gitkeep",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "apps/react-monorepo/src/main.tsx",
+          "hash": "17031623790071076628",
+          "deps": [
+            "npm:react",
+            "npm:react-dom"
+          ]
+        },
+        {
+          "file": "apps/react-monorepo/src/styles.css",
+          "hash": "2917954890128038984"
+        },
+        {
+          "file": "apps/react-monorepo/tsconfig.app.json",
+          "hash": "9014817974750934731"
+        },
+        {
+          "file": "apps/react-monorepo/tsconfig.json",
+          "hash": "8792423286157740794"
+        },
+        {
+          "file": "apps/react-monorepo/tsconfig.spec.json",
+          "hash": "14946234538926368843"
+        },
+        {
+          "file": "apps/react-monorepo/vite.config.ts",
+          "hash": "5156976472100977550",
+          "deps": [
+            "npm:vite",
+            "npm:@vitejs/plugin-react",
+            "npm:@nx/vite/plugins/nx-tsconfig-paths.plugin"
+          ]
+        }
+      ],
+      "react-monorepo-e2e": [
+        {
+          "file": "apps/react-monorepo-e2e/.eslintrc.json",
+          "hash": "10799368048025705622"
+        },
+        {
+          "file": "apps/react-monorepo-e2e/cypress.config.ts",
+          "hash": "5888464509215434582",
+          "deps": [
+            "npm:cypress",
+            "npm:@nx/cypress/plugins/cypress-preset"
+          ]
+        },
+        {
+          "file": "apps/react-monorepo-e2e/project.json",
+          "hash": "6686938081278267979"
+        },
+        {
+          "file": "apps/react-monorepo-e2e/src/e2e/app.cy.ts",
+          "hash": "12889489734243225522"
+        },
+        {
+          "file": "apps/react-monorepo-e2e/src/fixtures/example.json",
+          "hash": "17341819486505642070"
+        },
+        {
+          "file": "apps/react-monorepo-e2e/src/support/app.po.ts",
+          "hash": "5364106453863571025"
+        },
+        {
+          "file": "apps/react-monorepo-e2e/src/support/commands.ts",
+          "hash": "11031723810997510506"
+        },
+        {
+          "file": "apps/react-monorepo-e2e/src/support/e2e.ts",
+          "hash": "15928825062325902088"
+        },
+        {
+          "file": "apps/react-monorepo-e2e/tsconfig.json",
+          "hash": "6711070650399197251"
+        }
+      ],
+      "shared-ui": [
+        {
+          "file": "shared-ui/.babelrc",
+          "hash": "15003411175763814189"
+        },
+        {
+          "file": "shared-ui/.eslintrc.json",
+          "hash": "2438057684096468580"
+        },
+        {
+          "file": "shared-ui/README.md",
+          "hash": "1958105762262762743"
+        },
+        {
+          "file": "shared-ui/project.json",
+          "hash": "15293969143748310383"
+        },
+        {
+          "file": "shared-ui/src/index.ts",
+          "hash": "7339562302713270348"
+        },
+        {
+          "file": "shared-ui/src/lib/shared-ui.module.css",
+          "hash": "9824504850739023139"
+        },
+        {
+          "file": "shared-ui/src/lib/shared-ui.spec.tsx",
+          "hash": "10412046497439103172",
+          "deps": [
+            "npm:@testing-library/react"
+          ]
+        },
+        {
+          "file": "shared-ui/src/lib/shared-ui.tsx",
+          "hash": "18078396668041705038"
+        },
+        {
+          "file": "shared-ui/tsconfig.json",
+          "hash": "498826013665930878"
+        },
+        {
+          "file": "shared-ui/tsconfig.lib.json",
+          "hash": "4140973907684012490"
+        },
+        {
+          "file": "shared-ui/tsconfig.spec.json",
+          "hash": "1305520635785711129"
+        },
+        {
+          "file": "shared-ui/vite.config.ts",
+          "hash": "6430583272560591534",
+          "deps": [
+            "npm:vite",
+            "npm:@vitejs/plugin-react",
+            "npm:@nx/vite/plugins/nx-tsconfig-paths.plugin"
+          ]
+        }
+      ]
+    }
+  }
+}
